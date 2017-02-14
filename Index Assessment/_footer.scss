@@ -1,0 +1,26 @@
+.footer {
+	margin: $default_margin;
+	height: 300px;
+	display: $default_display;
+	justify-content:center;
+
+	.footersub {
+		width: 300px;
+
+		.ul_common {
+			list-style-type: $list-style-type;
+			color: $color;
+
+			.li_head {
+				padding: 8px 0 8px 0;
+				color: black;
+				font-size: 110%;
+			}
+
+			.li {
+				padding: 6px 0 6px 0;
+				font-size: 80%;
+			}
+		}
+	}
+}
