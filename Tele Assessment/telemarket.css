@@ -1,0 +1,96 @@
+.upper {
+  height: 35px;
+  display: flex;
+  background-color: #0E5794; }
+  .upper_left {
+    margin-left: 25px;
+    padding-top: 7px;
+    list-style-type: none;
+    display: flex; }
+    .upper_left .white {
+      color: white;
+      margin-left: 35px; }
+    .upper_left .green {
+      color: green;
+      margin-left: 8px; }
+  .upper_right {
+    padding-top: 7px;
+    margin-left: 313px;
+    list-style-type: none;
+    display: flex; }
+    .upper_right .white {
+      color: white;
+      margin-left: 35px; }
+    .upper_right .green {
+      color: green;
+      margin-left: 24px; }
+
+.mid {
+  height: 70px;
+  display: flex; }
+  .mid_left {
+    padding-top: 18px;
+    margin-left: 60px;
+    list-style-type: none;
+    display: flex; }
+    .mid_left .li {
+      padding-left: 45px;
+      padding-top: 5px;
+      color: #175ea9; }
+  .mid_right {
+    padding-top: 25px;
+    margin-left: 428px;
+    list-style-type: none;
+    display: flex; }
+    .mid_right .li {
+      padding-left: 30px;
+      color: #175ea9; }
+
+.bottom {
+  border-top: thin solid grey;
+  border-bottom: thin solid grey;
+  height: 35px;
+  display: flex; }
+  .bottom_left {
+    padding-top: 7px;
+    margin-left: 60px;
+    list-style-type: none;
+    display: flex; }
+    .bottom_left .li_l {
+      color: #175ea9; }
+    .bottom_left .li_r {
+      margin-left: 25px;
+      color: grey; }
+  .bottom_right {
+    margin-top: 2px;
+    margin-left: 325px;
+    list-style-type: none; }
+
+.middle {
+  height: 200px; }
+
+.footer {
+  height: 380px;
+  display: flex;
+  background-color: #0E5794; }
+  .footer_left {
+    display: flex;
+    margin: 20px 0px 0px 50px;
+    width: 700px; }
+    .footer_left .ul {
+      list-style-type: none;
+      color: white;
+      font-size: 18px; }
+      .footer_left .ul .head {
+        padding: 10px 0 10px 0;
+        font-size: 110%; }
+      .footer_left .ul .li {
+        padding: 2px 0 2px 0;
+        font-size: 95%; }
+  .footer_right {
+    margin: 20px 150px 0px 0px;
+    height: 80px;
+    display: flex;
+    list-style-type: none; }
+
+/*# sourceMappingURL=telemarket.css.map */

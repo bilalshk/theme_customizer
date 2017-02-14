@@ -1,0 +1,29 @@
+.footer {
+	height: 380px;
+	display: flex;
+	background-color: #0E5794;
+	&_left {
+		display: flex;
+		margin: 20px 0px 0px 50px;
+		width: 700px;
+		.ul {
+			list-style-type: none;
+			color: white;
+			font-size: 18px;
+			.head {
+				padding: 10px 0 10px 0;
+			    font-size: 110%;
+			}
+			.li {
+				padding: 2px 0 2px 0;
+    			font-size: 95%;
+			}
+		}
+	}
+	&_right {
+		margin: 20px 150px 0px 0px;
+    	height: 80px;
+		display: flex;
+		list-style-type: none;
+	}
+}
