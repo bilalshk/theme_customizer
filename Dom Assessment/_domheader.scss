@@ -1,0 +1,23 @@
+.head {
+	background-color: #2D2A26;
+	height: 40px;
+	display: flex;
+	&_left {
+		display: flex;
+		list-style-type: none;
+		margin: 10px 0px 0px 50px;
+		.li {
+			margin-left: 40px;
+			color: grey;
+		}
+	}
+	&_right {
+		display: flex;
+		list-style-type: none;
+		margin: 10px 0px 0px 400px;
+		.li {
+			margin-left: 40px;
+			color: grey;
+		}
+	}
+}

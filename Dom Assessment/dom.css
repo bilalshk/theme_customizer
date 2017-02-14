@@ -1,0 +1,105 @@
+.head {
+  background-color: #2D2A26;
+  height: 40px;
+  display: flex; }
+  .head_left {
+    display: flex;
+    list-style-type: none;
+    margin: 10px 0px 0px 50px; }
+    .head_left .li {
+      margin-left: 40px;
+      color: grey; }
+  .head_right {
+    display: flex;
+    list-style-type: none;
+    margin: 10px 0px 0px 400px; }
+    .head_right .li {
+      margin-left: 40px;
+      color: grey; }
+
+.middle {
+  height: 500px;
+  display: flex;
+  margin-left: 90px; }
+  .middle_left {
+    border: 2px solid darkgrey;
+    list-style-type: none;
+    width: 600px;
+    margin-left: 40px; }
+    .middle_left .li_head {
+      margin: 20px 0px 30px 0px;
+      font-size: 40px;
+      display: flex;
+      justify-content: center; }
+    .middle_left .li {
+      font-size: 20px;
+      margin: 10px 0px 10px 0px;
+      display: flex; }
+      .middle_left .li_left {
+        width: 200px;
+        height: 20px; }
+      .middle_left .li_right {
+        width: 200px;
+        height: 20px; }
+    .middle_left .button {
+      display: flex;
+      justify-content: center; }
+      .middle_left .button_r {
+        border: none;
+        color: white;
+        padding: 12px 40px;
+        font-size: 16px;
+        margin: 20px 30px 0px 30px;
+        background-color: blue; }
+      .middle_left .button_s {
+        border: none;
+        color: white;
+        padding: 12px 40px;
+        font-size: 16px;
+        margin: 20px 30px 0px 30px;
+        background-color: green; }
+  .middle_right {
+    margin-left: 20px;
+    width: 300px;
+    border: 2px solid darkgrey;
+    list-style-type: none;
+    overflow: auto; }
+    .middle_right .li_head {
+      margin: 20px 0px 30px 0px;
+      font-size: 40px;
+      display: flex;
+      justify-content: center; }
+    .middle_right .dashboard_new {
+      background-color: #eae5e5;
+      display: block;
+      text-align: center;
+      margin-right: 30px;
+      margin-bottom: 10px; }
+
+.footer {
+  border-top: thin solid darkgrey;
+  height: 40px;
+  display: flex;
+  width: 1050px;
+  margin-left: 150px;
+  padding-left: 0px; }
+  .footer_left {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    padding: 0px; }
+    .footer_left .li {
+      margin-left: 25px;
+      color: grey;
+      font-size: small; }
+  .footer_right {
+    display: flex;
+    list-style-type: none;
+    margin-top: 10px;
+    margin-left: 160px; }
+    .footer_right .li {
+      margin-left: 25px;
+      color: grey;
+      font-size: small; }
+
+/*# sourceMappingURL=dom.css.map */

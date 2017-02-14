@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>DOM ASSESSMENT</title>
+	<link rel="stylesheet" type="text/css" href="dom.css">
+	<script type="text/javascript" src="dom.js"></script>
+</head>
+<body>
+<header>
+	<ul class="head">
+		<ul class="head_left">
+			<li class="li"><img src="/Users/bilalshaikh/Bilal-ui-html/app_head.png" height="25x" width="25px"></li>
+			<li class="li">MyApps</li>
+			<li class="li">Marketplace</li>
+		</ul>
+		<ul class="head_right">
+			<li class="li">Account</li>
+			<li class="li">Bilal Shaikh</li>
+		</ul>
+	</ul>
+</header>
+<ul class="middle">
+	<ul class="middle_left">
+		<li class="li_head">Registration Page</li>
+		<li class="li">
+			<label class="li_left">First Name</label>
+			<input class="li_right" type="text" id="firstname">
+		</li>
+		<li class="li">
+			<label class="li_left">Last Name</label>
+			<input class="li_right" type="text" id="lastname">
+		</li>
+		<li class="li">
+			<label class="li_left">Address (P)</label>
+			<input class="li_right" type="text" id="addressp">
+		</li>
+		<li class="li">
+			<label class="li_left"></label>
+			<input type="checkbox" id="checkbox" onclick="checkAddress(this)">	
+		</li>
+		<li class="li">
+			<label class="li_left">Address (C)</label>
+			<input class="li_right" type="text" id="addressc">
+		</li>
+		<li class="li">
+			<label class="li_left">Email-id</label>
+			<input class="li_right" type="text" id="email">
+		</li>
+		<li class="li">
+			<label class="li_left">Phone No.</label>
+			<input class="li_right" type="text" id="phone">
+		</li>
+		<li class="li">
+			<label class="li_left">Password</label>
+			<input class="li_right" type="password" id="password">
+		</li>
+		<li class="li">
+			<label class="li_left">Confirm Password</label>
+			<input class="li_right" type="password" id="confirmpassword">
+		</li>
+		<li class="button">
+			<input type="button" onclick="reset()" class="button_r" value="Reset">
+			<input type="button" onclick="createuser()" class="button_s" value="Register" id="register">
+		</li>
+	</ul>
+	<ul class="middle_right" id="dashboard">
+			<li class="li_head">Dashboard</li>
+	</ul>
+</ul>
+<footer>
+	<ul class="footer">
+		<ul class="footer_left">
+			<li class="li"><img src="/Users/bilalshaikh/Bilal-ui-html/app_foot.png" height="25x" width="25px"></li>
+			<li class="li">Powered By AppDirect ©2009-2017</li>
+		</ul>
+		<ul class="footer_right">
+			<li class="li">
+				<select>
+					<option>English (United States)</option>
+					<option>English (UK)</option>
+					<option>Mandarin (China)</option>
+					<option>Hindi (India)</option>
+				</select>
+			</li>
+			<li class="li">Help Center</li>
+			<li class="li">Privacy Policy</li>
+			<li class="li">Terms and Conditions</li>
+			<li class="li">Contact</li>
+		</ul>
+	</ul>
+</footer>
+</body>
+</html>
